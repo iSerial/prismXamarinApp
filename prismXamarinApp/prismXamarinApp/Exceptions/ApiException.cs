@@ -21,9 +21,9 @@ namespace prismXamarinApp.Exceptions
             Connection = connection;
             StatusCode = HttpStatusCode.ServiceUnavailable;
         }
-        public class ApiExceptionError
-        {
-            public string Message { get; set; }
-        }
+    }
+    public class ApiExceptionError
+    {
+        public string Message { get; set; }
     }
 }
